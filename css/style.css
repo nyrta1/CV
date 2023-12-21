@@ -8624,6 +8624,29 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   border-radius: 50%;
 }
 
+.resume-timeline-item-active:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid;
+  background: white;
+  border-radius: 50%;
+
+  animation-name: project-active;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes project-active {
+  0%   {border-color: #58677c;}
+  50% {border-color: #00BFFF;}
+  100% {border-color: #58677c;}
+}
+
 .resume-progress {
   height: 0.6rem;
 }
