@@ -8637,14 +8637,14 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   border-radius: 50%;
 
   animation-name: project-active;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes project-active {
-  0%   {border-color: #58677c;}
-  50% {border-color: #00BFFF;}
-  100% {border-color: #58677c;}
+  0%   {border-color: #58677c;box-shadow: 0px 0px 7px 2px #FFFFFF;}
+  50% {border-color: #00BFFF; box-shadow: 0px 0px 7px 2px #00BFFF;}
+  100% {border-color: #58677c; box-shadow: 0px 0px 7px 2px #FFFFFF;}
 }
 
 .resume-progress {
