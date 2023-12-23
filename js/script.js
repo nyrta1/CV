@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+
     $("#NDG_LINUX_CERT").click(function() {
         $("#ModalLabel").text("СЕРТИФИКАТ: NDG Linux Essential course");
         $("#ModalImage").attr("src", "./images/certificates/NDG-Linux-Essent-certificate.jpg")
