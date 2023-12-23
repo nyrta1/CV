@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    $("#NDG_LINUX_CERT").click(function() {
+        $("#ModalLabel").text("СЕРТИФИКАТ: NDG Linux Essential course");
+        $("#ModalImage").attr("src", "./images/certificates/NDG-Linux-Essent-certificate.jpg")
+    })
+
     $("#RUSSIAN_CAMPUS_CERT").click(function() {
         $("#ModalLabel").text("СЕРТИФИКАТ: Кампус на зелёной улице. Компетенции будущего");
         $("#ModalImage").attr("src", "./images/certificates/campus.jpeg")
