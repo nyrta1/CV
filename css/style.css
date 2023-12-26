@@ -8554,6 +8554,11 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   font-size: 1.5rem;
 }
 
+.resume-header .qr {
+  width: 55px;
+  height: 55px;
+}
+
 .resume-header a {
   color: rgba(255, 255, 255, 0.6);
 }
