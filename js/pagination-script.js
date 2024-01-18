@@ -1,6 +1,6 @@
 $(document).ready(function() {
     const articles = document.querySelectorAll('.my-project-item');
-    const itemsPerPage = 4;
+    const itemsPerPage = 999;
     const totalPages = Math.ceil(articles.length / itemsPerPage);
     const pagination = document.getElementById('pageNumbers');
     const paginationLinks = pagination.querySelectorAll('.page-link');
