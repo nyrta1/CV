@@ -154,6 +154,26 @@ sup {
 }
 
 a {
+  color: #2287C9;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #2287C9;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #2287C9;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #339900;
+  text-decoration: underline;
+}
+
+a {
   color: #434E5E;
   text-decoration: none;
   background-color: transparent;
