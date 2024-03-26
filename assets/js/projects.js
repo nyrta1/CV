@@ -13,7 +13,7 @@ const projects = [
         "github_link": "https://github.com/nyrta1/Personal-Finance-Tracker",
         "created_at": 2024,
         "project_description": "Проект \"Personal Finance Tracker\" - мощное приложение полного стека с высокой надежностью и безопасностью. Позволяет анализировать финансовое положение через микросервисы. При сбое сервера другие микросервисы продолжают работать. Администраторы управляют статусом через Grafana и Prometheus.",
-        "tech_stacks": ["HTML/CSS", "JavaScript", "React", "Docker", "Kubernetes", "Spring Boot", "Spring Security", "Spring Cloud", "JWT Auth", "API Gateway", "PostgreSQL", "Zipkin", "Grafana", "Prometheus"],
+        "tech_stacks": ["React", "Docker", "Kubernetes", "Spring Boot", "Spring Security", "Spring Cloud", "JSON Web Token", "API Gateway", "PostgreSQL", "Zipkin", "Grafana", "Prometheus"],
         "status": ["FINISHED"]
     },
     {
@@ -21,7 +21,7 @@ const projects = [
         "github_link": "https://github.com/nyrta1/YouDown",
         "created_at": 2023,
         "project_description": "Программа для загрузки медиафайлов с YouTube - мощный инструмент, созданный на базе Angular 16 с помощью Spring Boot. Он предлагает загрузку медиафайлов высокого качества и позволяет обрезать файлы по необходимости. С удобным пользовательским интерфейсом легко пользоваться и эффективно загружать контент с YouTube. ",
-        "tech_stacks": ["Spring Boot", "Spring Security", "JWT Auth", "PostgreSQL", "Docker", "FFmpeg", "Hibernate", "TypeScript", "Angular 16", "HTML/CSS", "Bootstrap5"],
+        "tech_stacks": ["Spring Boot", "Spring Security", "JSON Web Token", "PostgreSQL", "Docker", "FFmpeg", "Hibernate", "TypeScript", "Angular 16"],
         "status": ["FINISHED", "THE_BEST"]
     },
     {
