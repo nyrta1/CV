@@ -29,7 +29,7 @@ function renderExperience() {
                             <h4 class="resume-skills-cat font-weight-bold">${experience.position}</h4>
                             <p>${experience.comment}</p>
                             <div class="resume-skill-item">
-                                <h4 class="resume-skills-cat font-weight-bold">Used tech stacks</h4>
+                                <h4 class="resume-skills-cat font-weight-bold">Используемые технологии</h4>
                                 <ul class="list-inline">
                                     ${experience.tech_stacks.map(stack => `<li class="list-inline-item"><span class="badge badge-light">${stack}</span></li>`).join('')}
                                 </ul>
