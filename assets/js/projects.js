@@ -1,20 +1,20 @@
 // Default status tags: "FINISHED", "THE_BEST", "IN_PROGRESS", "HOSTED"
 const projects = [
     {
+        "project_name": "Personal Finance Tracker",
+        "github_link": "https://github.com/nyrta1/Personal-Finance-Tracker",
+        "created_at": 2024,
+        "project_description": "Я разработал этот проект с акцентом на надежность и безопасность. В проекте реализована логика, позволяющая анализировать финансовое положение через микросервисы. В случае сбоя одного из серверов, остальные микросервисы продолжают свою работу. Кроме того, я создал конфигурацию для Grafana и Prometheus, позволяющую отслеживать состояние сервера.",
+        "tech_stacks": ["React", "Docker", "Spring Boot", "Spring Data", "Spring Security", "Spring Cloud", "JSON Web Token", "API Gateway", "PostgreSQL", "Zipkin", "Grafana", "Prometheus"],
+        "status": ["FINISHED"]
+    },
+    {
         "project_name": "YouDown",
         "github_link": "https://github.com/nyrta1/YouDown",
         "created_at": 2023,
         "project_description": "Я создал этот проект для загрузки медиафайлов с YouTube на базе Angular 16 и Spring Boot. Воспользовался библиотекой с GitHub для скачивания видео. Интегрировал её в систему, сделав проект легким. С FFmpeg обеспечил высокое качество видео. Сервер позволяет загружать файлы высокого разрешения. Удобный интерфейс облегчает загрузку контента с YouTube.",
-        "tech_stacks": ["Spring Boot", "Spring Security", "JSON Web Token", "PostgreSQL", "Docker", "FFmpeg", "Hibernate", "TypeScript", "Angular 16"],
+        "tech_stacks": ["Spring Boot", "Spring Data", "Spring Security", "JSON Web Token", "PostgreSQL", "Docker", "FFmpeg", "Hibernate", "Typescript", "Angular 16"],
         "status": ["FINISHED", "THE_BEST"]
-    },
-    {
-        "project_name": "AlgaSamga",
-        "github_link": "https://github.com/nyrta1/AlgaSamga",
-        "created_at": 2023,
-        "project_description": "Я разработал веб-сайт для онлайн-обучения с удобным видеостримингом, интуитивным интерфейсом и комментариями к урокам для взаимодействия студентов. Также добавил функционал просмотра профилей других участников и создал админ-панель для полного контроля.",
-        "tech_stacks": ["Spring Boot", "Spring Security", "Thymeleaf", "PostgreSQL", "Docker", "Hibernate", "HTML/CSS", "Bootstrap"],
-        "status": ["FINISHED"]
     }
 ];
 
@@ -66,11 +66,11 @@ renderProjects();
         "status": ["FINISHED"]
     },
     {
-        "project_name": "Personal Finance Tracker",
-        "github_link": "https://github.com/nyrta1/Personal-Finance-Tracker",
-        "created_at": 2024,
-        "project_description": "Я разработал этот проект с акцентом на надежность и безопасность. В проекте реализована логика, позволяющая анализировать финансовое положение через микросервисы. В случае сбоя одного из серверов, остальные микросервисы продолжают свою работу. Кроме того, я создал конфигурацию для Grafana и Prometheus, позволяющую отслеживать состояние сервера.",
-        "tech_stacks": ["React", "Docker", "Spring Boot", "Spring Security", "Spring Cloud", "JSON Web Token", "API Gateway", "PostgreSQL", "Zipkin", "Grafana", "Prometheus"],
+        "project_name": "AlgaSamga",
+        "github_link": "https://github.com/nyrta1/AlgaSamga",
+        "created_at": 2023,
+        "project_description": "Я разработал веб-сайт для онлайн-обучения с удобным видеостримингом, интуитивным интерфейсом и комментариями к урокам для взаимодействия студентов. Также добавил функционал просмотра профилей других участников и создал админ-панель для полного контроля.",
+        "tech_stacks": ["Spring Boot", "Spring Security", "Thymeleaf", "PostgreSQL", "Docker", "Hibernate", "HTML/CSS", "Bootstrap"],
         "status": ["FINISHED"]
-    },
+    }
  */
