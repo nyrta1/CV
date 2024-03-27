@@ -9,14 +9,6 @@ const projects = [
         "status": ["FINISHED"]
     },
     {
-        "project_name": "Personal Finance Tracker",
-        "github_link": "https://github.com/nyrta1/Personal-Finance-Tracker",
-        "created_at": 2024,
-        "project_description": "Я разработал этот проект с акцентом на надежность и безопасность. В проекте реализована логика, позволяющая анализировать финансовое положение через микросервисы. В случае сбоя одного из серверов, остальные микросервисы продолжают свою работу. Кроме того, я создал конфигурацию для Grafana и Prometheus, позволяющую отслеживать состояние сервера.",
-        "tech_stacks": ["React", "Docker", "Spring Boot", "Spring Security", "Spring Cloud", "JSON Web Token", "API Gateway", "PostgreSQL", "Zipkin", "Grafana", "Prometheus"],
-        "status": ["FINISHED"]
-    },
-    {
         "project_name": "YouDown",
         "github_link": "https://github.com/nyrta1/YouDown",
         "created_at": 2023,
@@ -28,7 +20,7 @@ const projects = [
         "project_name": "AlgaSamga",
         "github_link": "https://github.com/nyrta1/AlgaSamga",
         "created_at": 2023,
-        "project_description": "Я разработал веб-сайт для онлайн-обучения с возможностью удобного изучения материала через видеостриминг. Создал простой и интуитивно понятный интерфейс, который помогает пользователям быстро освоить процесс обучения. Каждый урок снабжен комментариями, чтобы студенты могли взаимодействовать и задавать вопросы друг другу. Также студенты могут просматривать профили других участников и получать информацию о курсах, которые они проходят. Кроме того, создал админ-панель для администраторов, обеспечивающую полный контроль над всеми пользователями.",
+        "project_description": "Я разработал веб-сайт для онлайн-обучения с удобным видеостримингом, интуитивным интерфейсом и комментариями к урокам для взаимодействия студентов. Также добавил функционал просмотра профилей других участников и создал админ-панель для полного контроля.",
         "tech_stacks": ["Spring Boot", "Spring Security", "Thymeleaf", "PostgreSQL", "Docker", "Hibernate", "HTML/CSS", "Bootstrap"],
         "status": ["FINISHED"]
     }
@@ -71,3 +63,14 @@ function renderProjects() {
 }
 
 renderProjects();
+
+/*
+    {
+        "project_name": "Personal Finance Tracker",
+        "github_link": "https://github.com/nyrta1/Personal-Finance-Tracker",
+        "created_at": 2024,
+        "project_description": "Я разработал этот проект с акцентом на надежность и безопасность. В проекте реализована логика, позволяющая анализировать финансовое положение через микросервисы. В случае сбоя одного из серверов, остальные микросервисы продолжают свою работу. Кроме того, я создал конфигурацию для Grafana и Prometheus, позволяющую отслеживать состояние сервера.",
+        "tech_stacks": ["React", "Docker", "Spring Boot", "Spring Security", "Spring Cloud", "JSON Web Token", "API Gateway", "PostgreSQL", "Zipkin", "Grafana", "Prometheus"],
+        "status": ["FINISHED"]
+    },
+ */
