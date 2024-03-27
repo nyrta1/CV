@@ -1,14 +1,6 @@
 // Default status tags: "FINISHED", "THE_BEST", "IN_PROGRESS", "HOSTED"
 const projects = [
     {
-        "project_name": "Multi Data Format Microservices Library System",
-        "github_link": "https://github.com/nyrta1/Multi-Data-Format-Microservices-Library-System",
-        "created_at": 2024,
-        "project_description": "Я создал микросервисы, каждый из которых обрабатывает различные типы данных, такие как JSON, XML и YAML, используя одну базу данных. Это очень удобно для других библиотек, работающих с разными форматами данных. Если хотя бы один из микросервисов выйдет из строя, остальные будут продолжать функционировать.",
-        "tech_stacks": ["Spring Boot", "Spring Cloud", "PostgreSQL", "Docker", "JSON Web Token", "API Gateway", "PostgreSQL", "Zipkin"],
-        "status": ["FINISHED"]
-    },
-    {
         "project_name": "YouDown",
         "github_link": "https://github.com/nyrta1/YouDown",
         "created_at": 2023,
@@ -65,6 +57,14 @@ function renderProjects() {
 renderProjects();
 
 /*
+{
+        "project_name": "Multi Data Format Microservices Library System",
+        "github_link": "https://github.com/nyrta1/Multi-Data-Format-Microservices-Library-System",
+        "created_at": 2024,
+        "project_description": "Я создал микросервисы, каждый из которых обрабатывает различные типы данных, такие как JSON, XML и YAML, используя одну базу данных. Это очень удобно для других библиотек, работающих с разными форматами данных. Если хотя бы один из микросервисов выйдет из строя, остальные будут продолжать функционировать.",
+        "tech_stacks": ["Spring Boot", "Spring Cloud", "PostgreSQL", "Docker", "JSON Web Token", "API Gateway", "PostgreSQL", "Zipkin"],
+        "status": ["FINISHED"]
+    },
     {
         "project_name": "Personal Finance Tracker",
         "github_link": "https://github.com/nyrta1/Personal-Finance-Tracker",
