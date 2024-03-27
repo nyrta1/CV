@@ -5,7 +5,7 @@ const projects = [
         "github_link": "https://github.com/nyrta1/Multi-Data-Format-Microservices-Library-System",
         "created_at": 2024,
         "project_description": "Я создал микросервисы, каждый из которых обрабатывает различные типы данных, такие как JSON, XML и YAML, используя одну базу данных. Это очень удобно для других библиотек, работающих с разными форматами данных. Если хотя бы один из микросервисов выйдет из строя, остальные будут продолжать функционировать.",
-        "tech_stacks": ["Spring Boot", "Spring Cloud", "PostgreSQL"],
+        "tech_stacks": ["Spring Boot", "Spring Cloud", "PostgreSQL", "Docker", "JSON Web Token", "API Gateway", "PostgreSQL", "Zipkin"],
         "status": ["FINISHED"]
     },
     {
